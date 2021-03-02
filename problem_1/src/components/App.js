@@ -4,10 +4,13 @@ import MainPage from './MainPage';
 import '../style.css';
 
 const App = () => {
+
+  const [fontSize, setFontSize] = useState(16);
+
   return (
     <div className="App">
       <Header />
-      <MainPage />
+      <MainPage fontSize={fontSize} setFontSize={setFontSize} />
     </div>
   );
 }
