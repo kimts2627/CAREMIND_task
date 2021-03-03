@@ -5,7 +5,7 @@ import '../style.css';
 
 const App = () => {
 
-  const [fontSize, setFontSize] = useState(16);
+  const [fontSize, setFontSize] = useState(16); // ...... 폰트 사이즈를 담아두는 state
 
   return (
     <div className="App">

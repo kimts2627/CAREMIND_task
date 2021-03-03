@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const Header = () => {
 
-  const [isMenuOpen, setMenuOpen] = useState(false);
+  const [isMenuOpen, setMenuOpen] = useState(false); // ...... 메뉴 열림 여부를 판단하는 boolean 타입의 state
 
   return(
     <header className='header-container'>
