@@ -17,7 +17,7 @@ const initialState = {
   currentPwInput: '',
   userInfo: {
     id: null,
-    avata: null
+    avatar: null
   }
 }
 
