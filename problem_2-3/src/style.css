@@ -47,3 +47,29 @@ table {
 }
 
 /*-----------------------code for reset CSS---------------------------*/
+
+.App {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.login-box {
+	box-shadow: 4px 5px 10px 5px rgba(0, 0, 0, 0.137);
+	width: 400px;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.login-box input {
+	margin-top: 15px;
+}
+
+.login-box button {
+	margin-top: 15px;
+}
